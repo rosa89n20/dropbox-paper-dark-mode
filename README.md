@@ -1,5 +1,5 @@
-# dropbox-paper-dark-theme
-Dropbox paper dark theme to care your eyes, for [Stylish](https://userstyles.org/) plugin
+# dropbox-paper-dark-mode
+Dropbox paper dark mode to take care of your eyes, for [Stylish](https://userstyles.org/) plugin
 
 Change style both homepage and document.
 
