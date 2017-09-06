@@ -1,0 +1,186 @@
+/**********************************************
+ * Dropbox Papper Dark Theme for Stylish
+ * Author: Jon Gao
+ * License: MIT
+ * Created: 2017-09-06
+ **********************************************/
+
+/**********************************************
+ * Homepage elements
+ **********************************************/
+
+/* Homepage selected document highlight background */
+body,
+.hp-list-item-selected {
+    background-color: #a9a9a9;
+}
+
+/* Homepage document doclist status label */
+body,
+.hp-doclist-entry-byline-private {
+    color: #000;
+}
+
+/* Homepage document name label */
+body,
+.hp-list-item-title {
+    color: #fff;
+}
+
+/* Homepage tabs background */
+body,
+.hp-scroll-locking-header-inline {
+    background-color: #000;
+}
+
+/* Homepage main content */
+body,
+.hp-non-pad-page {
+    background-color: #000;
+}
+
+/* Homepage header */
+body,
+.hp-list-page-controls-inner {
+    background-color: #000;
+}
+
+/* Homepage document selected control */
+body,
+.hp-multiselect {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+/* Homepage document selected control Delete button override */
+body,
+.hp-button-dangerous.dmc-button-secondary {
+    background-color: #000;
+}
+
+/**********************************************
+ * Document elements
+ **********************************************/
+
+/* Document header/insert toolbar */
+body,
+#main-header-container,
+.main-header-right,
+.insert-rich-object-toolbar-wrapper .insert-toolbar-overlay,
+.ace-table,
+.hp-versions-button,
+.dmc-button-secondary,
+.insert-toolbar-preview-image,
+.insert-button {
+    background-color: #262626;
+}
+
+/* Document inserting element preview/code block */
+.insert-toolbar-preview-image .insert-toolbar-preview-image-inner,
+.insert-toolbar-preview-image:hover .insert-toolbar-preview-image-inner,
+.ace-line .insert-toolbar-preview,
+.ace-editor .line-list-type-code,
+code.listtype-code .insert-toolbar-preview-input {
+    background-color: #131313;
+}
+
+/* Document task list */
+@media (min-width: 600px) {
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-task.focused-line,
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-taskdone.focused-line,
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-task.ace-task-line-highlighted,
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-taskdone.ace-task-line-highlighted {
+        background-color: #131313!important;
+        color: #EEEEEE!important;
+    }
+}
+
+/* Document editor background */
+.ace-editor,
+.hp-toc .hp-toc-entries {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Document checkbox onfocus/onhover */
+@media (min-width: 600px) {
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-task.focused-line,
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-taskdone.focused-line,
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-task.ace-task-line-highlighted,
+    .ace-feature-due-dates .zoneId-0>.ace-line.line-list-type-taskdone.ace-task-line-highlighted {
+        background-color: #f7f9fa;
+        color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+/* Document header baseline */
+#main-header-container {
+    box-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* Share, Export, Archive, Delete button */
+body,
+.ace-editor,
+.hp-toc .hp-toc-entry-link,
+.hp-versions-button,
+.hp-header-title,
+.dmc-button-secondary,
+.ace-editor code.listtype-code,
+.insert-button {
+    color: #eee;
+}
+
+/* Common of inserted image */
+body,
+.ace-gallery-caption {
+    background-color: #000;
+}
+
+/* Home page sider background */
+body,
+.maestro-nav__container {
+    background: #000;
+}
+
+/* Account switcher */
+body,
+.maestro-nav-switcher-button {
+    background-color: #000 !important;
+}
+
+/* Account switcher text */
+.maestro-nav-footer {
+	color: #0070e0;   
+}
+
+/* Home page tab button */
+body,
+.hp-tab-selected,
+.hp-tab-selected:active,
+.hp-tab-selected:link,
+.hp-tab-selected:visited {
+    color: #fff;
+}
+
+/* Home page tab button */
+body,
+.hp-tab:hover {
+    color: #fff;
+}
+
+/* Home page title */
+body,
+.hp-breadcrumbs-text-self,
+.hp-breadcrumbs-text-self:hover {
+    color: #fff;
+}
+
+/* Document highlight normal/hover */
+body.show-comments span.attrcomment,
+body.underline-comments span.attrcomment {
+    border-bottom-color: #ffe9a8;
+    background-color: rgb(0, 112, 224) !important;
+}
+
+/* Button icon */
+.dmc-button .svg-icon {
+    fill: #0070e0;
+}
